@@ -25,7 +25,7 @@ get_latest_version() {
 }
 
 download_nezha() {
-    DOWNLOAD_LINK="https://github.com/ansoncloud8/am-nezha-freebsd/releases/latest/download/dashboard"
+    DOWNLOAD_LINK="https://github.com/ansoncloud8/am-nezha-freebsd/releases/v0.18.5/download/dashboard"
     if ! wget -qO "$INSTALLER_FILE" "$DOWNLOAD_LINK"; then
         echo 'error: Download failed! Please check your network or try again.'
         return 1
