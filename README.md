@@ -88,7 +88,7 @@ ssh <username>@<panel>.serv00.com
 
 - 3、进入到面板后复制下面代码到面板安装
 ```
-bash <(curl -s https://raw.githubusercontent.com/ansoncloud8/am-serv00-nezha/main/install-dashboard.sh)
+bash <(curl -s (https://raw.githubusercontent.com/jackssu/serv00-nezha/main/install-dashboard.sh)
 ```
 
 - 4、然后按照以下提升输入
